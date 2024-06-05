@@ -1,0 +1,208 @@
+* {  
+    box-sizing: border-box;  
+    padding: 0;  
+    margin: 0;  
+  }  
+    
+  body {  
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+  }  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px; /* Adjust as needed */
+    background-color: white; /* Example background color */
+  }
+  
+  .icon1 {
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    color: #041075;
+  }
+  
+  .ul-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Equal spacing between menu items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ul-nav li {
+    position: relative;
+  }
+  
+  .ul-nav a {
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust as needed */
+    color:#041075; /* Example text color */
+  }
+  
+  .ul-nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ul-nav li:hover ul {
+    display: block;
+  }
+  
+  .ul-nav ul li {
+    width: 200px; /* Adjust as needed */
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Adjust as needed */
+  }
+  
+  .search-input {
+    width: 500px; /* Increased width */
+    height: 30px;
+    padding: 5px 10px;
+    border: 2px solid #041075;
+    border-radius: 5px;
+    background-color:  #f5f5f5;
+  }
+  
+  .search-btn {
+    padding: 5px;
+    border: none;
+    background-color: #fdfdfd; /* Example button background color */
+    color: #fff; /* Example button text color */
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .search-btn img {
+    width: 25px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+  }
+  
+  .button-nav {
+    margin-left: 20px; /* Adjust as needed */
+  }
+  
+  .buttonnav3 {
+    padding: 10px 15px; /* Adjust as needed */
+    background-color: #ff6d0cd3; /* Example button background color */
+    color: #fff; /* Example button text color */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .login-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+    
+  .icon1 {  
+    display: flex;  
+    align-items: center;  
+    width: 90px; 
+    height: 50px; 
+  } 
+  .icon { 
+    width: 130px; 
+    height: 70px; 
+  }  
+main {
+    padding: 2rem 0;
+    background-color: #f1f1f1;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    color: #f97316; /* Orange color */
+    margin-bottom: 1rem;
+}
+
+.about p {
+    color: #1e3a8a; /* Blue color */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 30%;
+    height: 50%;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    color: #f97316; /* Orange color */
+    margin-top: 0;
+}
+
+.team-member p {
+    color: #1e3a8a; /* Blue color */
+}
+
+footer {
+    background-color: #1e3a8a; /* Blue color */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-left, .footer-right {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-right ul li {
+    margin-left: 1rem;
+}
+
+.footer-right ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
